@@ -1,0 +1,188 @@
+html{
+    scroll-behavior: smooth
+}
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite DE Grund", system-ui;
+}
+
+/* Variables */
+:root {
+    --normal-font: 400;
+    --bold-font: 900;
+    --bg-color: #F08080;
+    --primary-color: white;
+    --secondary-color: #39324d;
+    --primary-shadow: #f88e8e;
+    --secondary-shadow: #f88e8e;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+a:hover {
+    color: var(--secondary-color);
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav h1{
+    color: var(--primary-color);
+}
+nav ul{
+    display: flex;
+    gap: 1.9rem;
+}
+nav ul li{
+    font-weight: var(--bold-font);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+.hero img{
+    height: 36rem;
+    width: 28rem;
+}
+.bio{
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 15px 2px var(--primary-shadow);
+}
+.bio h2{
+    margin: var(--bottom-margin);
+}
+.bio p{
+    line-height: var(--line-height);
+    padding: 0.3rem;
+    
+}
+
+/*More about*/
+.more-about{
+     background-color: white;
+     padding: 1rem 6rem;
+}
+
+.more-about h2{
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.more-about p{
+    line-height: var(--line-height);
+    padding: 0.4rem;
+}
+/*More about ends*/
+
+/*Skills section*/
+.skills{
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.skill-header{
+    margin-bottom: 1rem;
+}
+
+.skills-wraper img{
+    padding: 1.25rem;
+}
+
+.icon{
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+.icon-card{
+    background-color: #fff;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    border-radius: 11px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*Project section*/
+.proyects{
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.project-pic{
+    width: 300px;
+    height: 150px;
+}
+
+.projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.project-container{
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.projects-container p{
+    padding: 0.4rem;
+}
+
+.project-title{
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-details{
+    margin-bottom: var(--bottom-margin);
+}
+
+
+.project-card{
+     background-color: #fff;
+     box-shadow: 0 3px 10px var(--secondary-shadow);
+       border-radius: 11px;
+     padding: 20px;
+     margin: 10px;
+ }
+
+footer{
+    background-color: var(--bg-color);
+    padding: 1.50rem;
+    text-align: center;
+    margin: 9rem 0 0;
+    background-color: var(--bg-color);
+    color: var(white);
+}
+
